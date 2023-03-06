@@ -1,4 +1,6 @@
-<template lang="">
+<script setup></script>
+
+<template>
   <div class="container">
     <h1 class="text-3xl text-red-600 font-bold py-6">HOME PAGE</h1>
     <p class="text-lg text-justify">
@@ -16,9 +18,5 @@
     </p>
   </div>
 </template>
-<script>
-export default {
-  name: "Home",
-};
-</script>
-<style lang=""></style>
+
+<style scoped></style>
