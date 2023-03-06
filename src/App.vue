@@ -1,13 +1,11 @@
-<template lang="">
+<script setup>
+import { RouterView } from "vue-router";
+</script>
+
+<template>
   <main>
     <RouterView />
   </main>
 </template>
-<script>
-import { RouterView } from "vue-router";
 
-export default {
-  name: "App",
-};
-</script>
-<style lang=""></style>
+<style scoped></style>
